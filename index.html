@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#09051d">
+  <meta name="description" content="Un pequeño universo creado especialmente para Jaris.">
+  <title>Un universo para Mi Cuchurumina ✨</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+  <div class="nebula nebula-one" aria-hidden="true"></div>
+  <div class="nebula nebula-two" aria-hidden="true"></div>
+  <div class="planet planet-one" aria-hidden="true"></div>
+  <div class="planet planet-two" aria-hidden="true"></div>
+  <div class="shooting-star" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand">✦ Un universo ✦</div>
+    <div class="progress-track" aria-label="Progreso de la experiencia">
+      <span id="progressFill"></span>
+    </div>
+    <div id="stepLabel" class="step-label">01 / 04</div>
+  </header>
+
+  <main>
+    <section class="screen active" id="welcome">
+      <div class="eyebrow"><span class="tiny-star">✧</span> UNA PEQUEÑA SORPRESA PARA TI <span class="tiny-star">✧</span></div>
+      <h1>Para ti,<br><span class="script-name">Mi Cuchurumina</span></h1>
+      <div class="heart-divider"><span></span>♡<span></span></div>
+      <p class="intro-copy">Hay personas que hacen que el Mismo tiempo se sienta como si fuera algo de Fuera de este mundo.</p>
+      <p class="sub-copy">Quise preparar este pequeño detalle *IC 1085*.</p>
+      <button class="glow-button" id="startJourney">Comenzar El Viaje <span>✦</span></button>
+      <div class="bottom-whisper">Hecho con mucho cariño de tu cuchurumin ♡</div>
+    </section>
+
+    <section class="screen" id="journey">
+      <div class="eyebrow">PRÓXIMA PARADA</div>
+      <div class="galaxy-art" aria-hidden="true">
+        <div class="galaxy-core"></div>
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <span class="orbit-moon">✦</span>
+      </div>
+      <h2>¿Lista?<br><em>Cositas jejeje</em></h2>
+      <p class="intro-copy">Cada cosa que agregare después de esto quiero que lo disfrutes tanto como yo lo hago.</p>
+      <button class="glow-button" id="openLetter">Descubrir la carta <span>♡</span></button>
+      <button class="text-button back-button" data-back="welcome">Volver al inicio</button>
+    </section>
+
+    <section class="screen" id="letter">
+      <div class="eyebrow">UN UNIVERSO DE AMOR </div>
+      <div class="letter-shell">
+        <div class="letter-top-mark">✦　☾　✦</div>
+        <h2 class="letter-heading">Mi querida Cuchurumina,</h2>
+        <div class="letter-content" id="letterContent">
+          <!-- El texto de ejemplo está en script.js. Puedes reemplazarlo allí por tu carta. -->
+        </div>
+        <div class="letter-signature" id="signature">Con todo mi amor,<br><span>tu persona favorita ♡</span></div>
+        <div class="letter-bottom-mark">✧ · · · ♡ · · · ✧</div>
+      </div>
+      <div class="letter-controls">
+        <button class="text-button" id="prevLetter">← Anterior</button>
+        <span id="letterPageLabel">Parte 1 de 3</span>
+        <button class="text-button" id="nextLetter">Siguiente →</button>
+      </div>
+      <button class="glow-button final-button" id="toFinal">THE END<span>✧</span></button>
+    </section>
+
+    <section class="screen" id="finale">
+      <div class="final-constellation" aria-hidden="true">✦　·　♡　·　✧</div>
+      <div class="final-orb" aria-hidden="true"><span>♡</span></div>
+      <div class="eyebrow">Y SIEMPRE HABRÁ MÁS ESTRELLAS</div>
+      <h2>Mi Universo <br><em>siempre estara a tu lado.</em></h2>
+      <p class="intro-copy final-copy" id="finalMessage">el futuro es incierto pero prometedor, simplemento quiero descublir miles de galaxias con tigo.</p>
+      <div class="heart-divider"><span></span>♡<span></span></div>
+      <p class="final-signoff">Gracias por ser parte de mi uvida este mes,Mi Cuchurumina.</p>
+      <button class="glow-button" id="replay">VOLVER A EMPEZAR <span>↻</span></button>
+      <div class="bottom-whisper">TE ANMOOOOOOooOOoOo ✨</div>
+    </section>
+  </main>
+
+  <footer>UN PEQUEÑO UNIVERSO · HECHO CON AMOR <span>♡</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>

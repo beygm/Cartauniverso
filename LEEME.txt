@@ -1,0 +1,22 @@
+# Un universo 🌌
+
+## Cómo abrir la página
+1. Descomprime el archivo ZIP.
+2. Abre la carpeta `Universo_para_mi_cuchurumina`.
+3. Haz doble clic en `index.html`. Se abrirá en tu navegador.
+
+## Cómo cambiar tu carta
+Abre `script.js` con Visual Studio Code o el Bloc de notas.
+
+- `LETTER_PAGES`: reemplaza los textos de ejemplo. Cada bloque es una parte de la carta.
+- `SIGNATURE_HTML`: cambia la firma que aparece al final de la carta.
+- `FINAL_MESSAGE`: cambia la frase de la última pantalla.
+
+Guarda los cambios y actualiza el navegador.
+
+## Archivos
+- `index.html`: estructura y pantallas.
+- `styles.css`: galaxia, colores, animaciones y diseño adaptable.
+- `script.js`: navegación, textos de ejemplo y estrellas animadas.
+
+La página funciona localmente. Para compartirla con Jaris mediante un enlace, tendrás que publicarla en un servicio de hosting estático, como GitHub Pages o Netlify. Las fuentes tipográficas se cargan desde Google Fonts; el resto de los efectos se crean con CSS y JavaScript.
